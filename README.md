@@ -37,3 +37,10 @@ La class de base a des fonctionnalités qui seront utilisées par toutes les ins
 
 Permet d'enchaîner plusieurs traitements lors d'une requete.
 
+### Strategy
+
+Ce design pattern permet d'avoir plusieurs algorithmes pour un même objet ==> On choisi l'algo selon ce que l'on souhaite faire ==> L'interface va décider quel objet va être implémenté
+Par rapport au design pattern decorator, la stratégie va changer le contenu de l'objet or le decorator va changer sa devanture.
+Par exemple, nous souhaitons monter notre ordinateur, l'objectif étant que cela fonctionne et fasse tourner des jeux videos puissants. On va donc opter pour des composants au coût élevé et aux performances élevées. 
+
+
